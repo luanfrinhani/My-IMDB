@@ -37,7 +37,7 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['single'],
+            'channels' => ['single', 'telegram'],
             'ignore_exceptions' => false,
         ],
 
@@ -55,11 +55,11 @@ return [
         ],
 
         'telegram' => [
-            'driver' => 'custom',
-            'via'    => Logger\TelegramLogger::class,
-            'level'  => env('TELEGRAM_LOGGER_ERROR_LEVEL'),
-            'token' => env('TELEGRAM_LOGGER_BOT_TOKEN'),
-            'chat_id' => env('TELEGRAM_LOGGER_CHAT_ID'),
+            'driver'  => 'custom',
+            'via'     => Logger\TelegramLogger::class,
+            'level'   => 'debug',
+            'token'   => '<YOUR_BOT_TOKEN>',
+            'chat_id' => '<CHAT_ID>',
         ],
 
         'slack' => [

@@ -22,7 +22,7 @@
         "league/flysystem-aws-s3-v3": "^3.0",
         "predis/predis": "^1.1",
         "revangelista/laravel-idempotency": "^1.0",
-        "revangelista/telegram-logger": "^1.0",
+        "revangelista/telegram-logger": "^1.3",
         "symfony/http-client": "^6.0",
         "symfony/mailgun-mailer": "^6.0",
         "symfony/postmark-mailer": "^6.0"
