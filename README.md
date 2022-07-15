@@ -151,13 +151,13 @@ Como os objetos do pacote Service são os responsáveis pela lógica de aplicaç
 
 Explicar o `Base/Service.php` e `Base/DataMaanger.php`
 
+### Diagrama de classes do projeto
+
+![](/img.png)
+
 ### Pastas do Projeto
 
-Mostrar as pasta dos Services e do DataManager
-
-### Testes
-
-Meta: começar a usar teste no projetos  
+Mostrar as pasta dos Services e do DataManager 
 
 ###  Contribuições
 
