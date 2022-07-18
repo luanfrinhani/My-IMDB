@@ -62,12 +62,6 @@ Route::group(
                     ->name('system.profile.password.edit');
                 Route::match(['put', 'patch'], '/profile/password', 'System\Admin\ProfileController@updatePassword')
                     ->name('system.profile.password.update');
-
-                // Rotas do produto
-                Route::resource('material', MaterialController::class);
-
-                // Rotas do cliente
-                Route::resource('client', ClientController::class);
             });
         });
 
